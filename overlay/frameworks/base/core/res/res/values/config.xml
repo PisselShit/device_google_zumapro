@@ -609,4 +609,7 @@
 
     <string name="config_gnssPsdsType">samsung</string>
 
+    <!-- The name of the package that will hold the dialer role by default. -->
+    <string name="config_defaultDialer" translatable="false">com.google.android.dialer</string>
+
 </resources>
