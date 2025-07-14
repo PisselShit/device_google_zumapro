@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/zumapro/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/zumapro/overlay-cherish
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
@@ -23,7 +23,7 @@ include device/google/gs-common/performance/experiments/experiments.mk
 PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 
 # Lineage Health
-include hardware/google/pixel/lineage_health/device.mk
+#include hardware/google/pixel/lineage_health/device.mk
 
 $(call soong_config_set,lineage_health,charging_control_supports_deadline,true)
 $(call soong_config_set,lineage_health,charging_control_supports_limit,true)
@@ -42,4 +42,4 @@ PRODUCT_PACKAGES += \
     TetheringOverlay
 
 # Touch
-include hardware/google/pixel/touch/device.mk
+#include hardware/google/pixel/touch/device.mk
