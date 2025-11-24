@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+BUILD_BROKEN_DUP_RULES := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+
 # Manifests
 DEVICE_MANIFEST_FILE += \
     device/google/zumapro/android.hardware.security.rkp-service.citadel.xml
